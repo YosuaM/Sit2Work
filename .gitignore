@@ -1,0 +1,55 @@
+# Visual Studio and VS Code
+.vscode/
+*.code-workspace
+
+# Build files
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.app/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.cache
+*.ide/
+
+# Logs and temp files
+logs/
+*.log
+*.tlog
+*.cache
+*.vs/
+*.DS_Store
+
+# Dependencies and package managers
+node_modules/
+packages/
+.nuget/
+*.nupkg
+project.lock.json
+project.assets.json
+
+# Environment files
+.env
+secrets.json
+appsettings.Development.json
+
+# Entity Framework Migrations
+Migrations/
+*.mdf
+*.ldf
+
+# Coverage reports
+coverage/
+*.coverlet/
+*.testResults/
+
+# Azure & Docker related
+azure-pipelines.yml
+Dockerfile
+docker-compose.yml

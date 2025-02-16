@@ -1,0 +1,6 @@
+@Sit2Work_HostAddress = http://localhost:5091
+
+GET {{Sit2Work_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
